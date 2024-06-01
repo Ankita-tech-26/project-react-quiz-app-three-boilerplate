@@ -1,0 +1,82 @@
+/* Quiz.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .quiz-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .question-section {
+    margin-bottom: 20px;
+  }
+  
+  .question-count {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .question-text {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .answer-section {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .answer-section button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .answer-section button:hover {
+    background: #0056b3;
+  }
+  
+  .answer-section button:focus {
+    outline: none;
+  }
+  
+  .finish-button {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .finish-button:hover {
+    background: #218838;
+  }
+  
+  .finish-button:focus {
+    outline: none;
+  }
+  
+  

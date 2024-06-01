@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "quiz-app": "^1.0.1",
+    "vite": "^5.2.12"
+  }
+}
